@@ -20,13 +20,7 @@ const Portfolio = () => {
             
             <div class = "card-container">
                 <h4>Weather Checker</h4>
-                <div id = "card2">
-                    <div class = "hide">
-                    Weather-Checker is an application designed to take user inputs for a city and display the current weather and 
-                    five day projected forecast for the weather. 
-                    It keeps a history of your previous searched cities and allows the user to delete that history if needed.
-                    </div>
-                </div>
+                <div id = "card2"></div>
                 <a class = "a-override" href="https://weather-checker-yshw.onrender.com/" target="_blank" rel="noopener noreferrer">
                     View Project
                 </a>
