@@ -287,7 +287,84 @@ ul {
   .text-div {
     margin-left: 0px;
   }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+    grid-gap: 20px; /* Add spacing between cards */
+    align-items: center; /* Center the cards vertically */
+    justify-content: center; /* Center the cards horizontally */
+    padding: 20px;
+    margin-left: 0;
+  }
+  label {
+    width: 100%;
+    padding: 10px;
+  }
+  .page-body {
+    margin-left: 0px;
+    padding: 10px;
+  }
+  .form-layout{
+    width: 200px;
+    padding: 10px;
+  }
+  .message-box {
+    width: 100%;
+    padding: 10px;
+  }
+  .contact-form {
+    margin-left: 0;
+    padding: 10px;
+  }
+  #contact-form-title {
+    margin-left: 0;
+    padding: 10px;
+  }
+  h3 {
+    margin-left: 0;
+    padding: 10px;
+  }
+  ul {
+    margin-left: 0;
+    padding: 10px;
+  }
 }
+
+@media (max-width: 520px) {
+  label {
+    width: 100%;
+    padding: 10px;
+  }
+  .page-body {
+    margin-left: 0px;
+    padding: 10px;
+  }
+  .form-layout{
+    width: 200px;
+    padding: 10px;
+  }
+  .message-box {
+    width: 100%;
+    padding: 10px;
+  }
+  .contact-form {
+    margin-left: 0;
+    padding: 10px;
+  }
+  #contact-form-title {
+    margin-left: 0;
+    padding: 10px;
+  }
+  h3 {
+    margin-left: 0;
+    padding: 10px;
+  }
+  ul {
+    margin-left: 0;
+    padding: 10px;
+  }
+}
+
 
 @media (max-width: 768px) {
   .content-container {
@@ -316,9 +393,61 @@ ul {
     bottom: 0; 
     width: 100%; 
   }
+  h3 {
+    margin-left: 0;
+    padding: 10px;
+  }
+  ul {
+    margin-left: 0;
+    padding: 10px;
+  }
   .grid-container {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive columns */
-
+    margin-left: 0;
+  }
+  #card1 {
+    width: 300px;
+    height: 300px;
+  }
+  #card2 {
+    width: 300px;
+    height: 300px;
+  }
+  #card3 {
+    width: 300px;
+    height: 300px;
+  }
+  #card4 {
+    width: 300px;
+    height: 300px;
+  }
+  #card5 {
+    width: 300px;
+    height: 300px;
+  }
+  #card6 {
+    width: 300px;
+    height: 300px;
+  }
+  .page-body {
+    margin-left: 0;
+    padding: 10px;
+  }
+  .form-layout{
+    width: 200px;
+    padding: 10px;
+  }
+  .message-box {
+    width: 100%;
+    padding: 10px;
+  }
+  .contact-form {
+    margin-left: 0;
+    padding: 10px;
+  }
+  #contact-form-title {
+    margin-left: 0;
+    padding: 10px;
   }
   nav {
     display: flex;
@@ -342,6 +471,7 @@ ul {
     height: 300px;
     padding: 25px;
   }
+  
 }
 
 @media (max-width: 960px) {
@@ -353,7 +483,55 @@ ul {
     bottom: 0; 
     width: 100%; 
   }
+  .page-body {
+    margin-left: 0px;
+    padding: 10px;
+  }
+  .form-layout{
+    width: 300px;
+    padding: 10px;
+  }
+  .message-box {
+    width: 100%;
+    padding: 10px;
+  }
+  .contact-form {
+    margin-left: 100px;
+    padding: 10px;
+  }
+  #contact-form-title {
+    margin-left: 100px;
+    padding: 10px;
+  }
+  h3 {
+    margin-left: 0;
+    padding: 10px;
+  }
+  ul {
+    margin-left: 0;
+    padding: 10px;
+  }
+}
 
-
- 
+@media (max-width: 1120px) {
+  .page-body {
+    margin-left: 0px;
+    padding: 10px;
+  }
+  .form-layout{
+    width: 100%;
+    padding: 10px;
+  }
+  .message-box {
+    width: 100%;
+    padding: 10px;
+  }
+  .contact-form {
+    margin-left: 0px;
+    padding: 10px;
+  }
+  #contact-form-title {
+    margin-left: 0px;
+    padding: 10px;
+  }
 }
